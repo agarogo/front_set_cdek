@@ -4,7 +4,7 @@ import { parseCookies } from "nookies";
 const isServer = typeof window === "undefined";
 
 const api = axios.create({
-    baseURL: process.env.NEXT_PUBLIC_API_URL || "http://localhost:8000",
+    baseURL: process.env.NEXT_PUBLIC_API_URL || "backcdek-backcdek.up.railway.app",
     timeout: 15000,
 });
 
